@@ -17,5 +17,5 @@ room_assignments = Array.new
 speakers.each do |x|
 room_assignments << x
 end
-
+room_assignments
 end
