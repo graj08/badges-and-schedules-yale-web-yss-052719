@@ -9,4 +9,5 @@ array.each do |x|
 new_badge = badge_maker(x)
 badge_list << new_badge
 end
+badge_list
 end
