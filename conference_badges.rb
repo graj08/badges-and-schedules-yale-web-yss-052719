@@ -7,3 +7,5 @@ array.each |name|
 badge_maker(name)
 end
 # Write your code here.
+
+batch_badge_creator("Alan","Judy")
