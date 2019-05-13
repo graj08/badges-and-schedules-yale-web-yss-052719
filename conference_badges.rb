@@ -14,8 +14,8 @@ end
 
 def assign_rooms (speakers)
 room_assignments = Array.new
-speakers.each do |x|
-room_assignments << x
+speakers.each_with_index do |x,i|
+room_assignments << i
 end
 room_assignments
 end
