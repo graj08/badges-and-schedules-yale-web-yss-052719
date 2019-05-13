@@ -11,3 +11,11 @@ badge_list << new_badge
 end
 badge_list
 end
+
+def assign_rooms (speakers)
+room_assignments = Array.new
+speakers.each do |x|
+room_assignments << x
+end
+
+end
