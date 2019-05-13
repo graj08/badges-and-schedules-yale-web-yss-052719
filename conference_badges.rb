@@ -19,3 +19,14 @@ room_assignments << "Hello, #{x}! You'll be assigned to room #{i+1}!"
 end
 room_assignments
 end
+
+def printer (names)
+badges = batch_badge_creator(names)
+badges.each do |x|
+  puts x
+end
+assignments = assign_rooms(names)
+assignments.each do |x|
+  puts x
+end
+end
